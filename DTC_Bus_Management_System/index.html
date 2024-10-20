@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTC Bus Management System</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/dtc_logo.png" alt="DTC Logo" class="logo">
+            <h1>DTC Login Portal</h1>
+        </header>
+        <div class="login-container">
+            <form action="login.html" method="get">
+                <label for="role-select">Select your role:</label>
+                <select name="role" id="role-select" required>
+                    <option value="passenger">Passenger</option>
+                    <option value="driver">Driver</option>
+                    <option value="conductor">Conductor</option>
+                    <option value="manager">Manager</option>
+                    <option value="owner">Bus Owner</option>
+                </select>
+                <button type="submit">Proceed to Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

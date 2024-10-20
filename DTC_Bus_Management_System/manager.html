@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Dashboard - DTC</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=geometry,drawing&v=weekly"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/dtc_logo.png" alt="DTC Logo" class="logo">
+            <h1>DTC Manager Portal</h1>
+            <div class="dark-mode-toggle">Toggle Dark Mode</div>
+        </header>
+        <div class="manager-interface">
+            <h2>Driver & Bus Management</h2>
+            <div id="driver-management">
+                <p>Manage and assign drivers to buses, monitor their schedules, and manage rest periods.</p>
+            </div>
+            <h2>Route Management</h2>
+            <div id="map" class="map-container"></div>
+            <div id="route-management">
+                <button id="add-new-route">Add New Route</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
